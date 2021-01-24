@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* Start for navigation */
+
+/* End for navigation */
+
+/* Start for background-image */
+#bgimage{
+	background-image: url('../img/project1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.insidebg{
+	color: white;
+	position: relative;
+	top: 70px;
+}
+/* End for background-image */
+
+/* Start for details */
+.details{
+	margin-top: 50px;
+}
+.details .details1{
+	background: orange;
+	width: 80px;
+	padding: 10px;
+}
+/* End for details */
+
+/* Start for galary */
+.galary{
+	margin-top: 40px;
+}
+.galary h4{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.galary .galaryImage{
+	width: 100%;
+	height: auto;
+}
+@media (max-width: 576px){
+	.detailsSm{
+		margin-top: 15px;
+	}
+}
+/* End for galary */
+
+/* Start for History */
+#history{
+	margin-top: 45px;
+}
+#history h4{
+	text-align: center;
+	margin-bottom: 35px;
+}
+@media (min-width: 340px) and (max-width: 576px){
+	.historyPart1{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+/* End for History */
+
+/* Start for group image */
+#imageGroup{
+	margin-top: 50px;
+}
+#imageGroup .groupImage{
+	width: 100%;
+	height: auto;
+}
+.card{
+	transition: all 1s ease 0.3s;
+}
+.card:hover{
+	border: 1px solid black;
+	border-radius: 8px;
+	box-shadow: 2px 2px 3px 3px gray;
+}
+#imageGroup h4{
+	text-align: center;
+	margin: 20px 0;
+}
+@media (max-width: 776px){
+	.card{
+		margin-top: 20px;
+		margin-left: 130px;
+	}
+}
+/* End for group image */
+
+/* Start for captionImage */
+#captionImage{
+	background-image: url('../img/image5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+}
+/* End for captionImage */
+
+/* Start for footer */
+footer{
+	background: #11413F;
+}
+.footerLi{
+	padding: 20px;
+}
+.footerLi ul{
+	list-style-type: none;
+}
+.footerLi a{
+	text-decoration: none;
+	color: white;
+}
+/* End for footer */
+
+/* Start for copyright */
+#copyright p{
+	background: black;
+	color: white;
+}
+/* End for copyright */
